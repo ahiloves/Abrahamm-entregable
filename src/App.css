@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  /* para centrar */
+  justify-content: center;
+  /* paracentrar horizontalmente */
+  align-items: center;
+  /* centrar verticamnete */
+  height: 100vh;
+  /* para que se centre verticalmente */
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-family: 'DS-Digital', sans-serif;
+
+}
+
+.bg1 {
+  background-image: url(/images/space1.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg2 {
+  background-image: url(/images/space2.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg3 {
+  background-image: url(/images/space3.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg4 {
+  background-image: url(/images/space4.gif);
+  background-size: cover;
+  background-position: center;
+}

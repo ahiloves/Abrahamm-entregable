@@ -1,0 +1,16 @@
+/* GifBackground.css */
+.gif-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Coloca el GIF detrás del contenido */
+  }
+  
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }

@@ -1,0 +1,51 @@
+/* Estilo para la caja principal */
+.quotebox {
+    max-width: 400px;
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    position: relative;
+  }
+  
+  /* Estilo para el título */
+  .quotebox_title {
+    color: white;
+  }
+  
+  /* Estilo para la caja del contenido principal */
+  .quotebox_box {
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo transparente */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden;
+    border: 2px solid #ffffff; /* Borde blanco con grosor de 2px */
+  }
+  
+  /* Estilo para el contenido dentro de la caja principal */
+  .quotebox_box p {
+    text-align: center;
+  }
+  
+  /* Estilo para el botón */
+  .quotebox_btn {
+    background: transparent; /* Fondo transparente para el botón */
+    border: none;
+    padding: 0;
+  }
+  
+  /* Estilo para el autor */
+  .quotebox_author {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    width: 100%; /* Ocupa todo el ancho de su contenedor */
+  }
+.quotebox_btn {
+    background: transparent; /* Establece el fondo como transparente */
+    border: none; /* Quita el borde si lo hay */
+    padding: 0; /* Quita el espacio interno */
+  }
+  
+
